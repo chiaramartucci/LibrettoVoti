@@ -45,10 +45,10 @@ public class Voto {
 
 	@Override
 	public String toString() {
-		return "Voto [nomeCorso=" + nomeCorso + ", voto=" + voto + ", dataEsame=" + dataEsame + "]";
+		return "Esame "+ nomeCorso + " superato con " + voto + " il " + dataEsame;
 	}
 
-	
+	 
 	
 	
 	
