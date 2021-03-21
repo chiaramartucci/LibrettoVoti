@@ -16,36 +16,36 @@ public class Libretto {
 		this.voti.add(v);
 	}
 	
-	// public void StampaVotiUguali (int punteggio) {
-		// il libretto stampa da solo i voti
-		// System.out.println();
-		
-		// metodo da pigri: l'altro metodo guarda più avanti
-	// }
+//	public void StampaVotiUguali (int punteggio) {
+//		// il libretto stampa da solo i voti
+//		 System.out.println();
+//		
+//		// metodo da pigri: l'altro metodo guarda più avanti
+//	 }
 	
-	// public String votiUguali (int punteggio) {
-		// calcola una stringa che contiene i voti
-		// sarà poi il chiamante a stamparli
-		
-		// problema: stampare solo il nome del corso o anche il voto?
-		
-	// }
+//	public String votiUguali (int punteggio) {
+//		// calcola una stringa che contiene i voti
+//		// sarà poi il chiamante a stamparli
+//		
+//		// problema: stampare solo il nome del corso o anche il voto?
+//		
+//	 }
 	
-	public List <Voto> listaVotiUguali (int punteggio){
-		// restituisce solo i voti uguali al criterio
-		// difetto: espone all'esterno il tipo di struttura dati
-		// che ho usato internamente
-		
-		ArrayList<Voto> risultato = new ArrayList<Voto>();
-		
-		for(Voto v: this.voti) {
-			if(v.getVoto()==punteggio) {
-				risultato.add(v);
-			}
-		}
-		
-		return risultato;
-	}
+//	public List <Voto> listaVotiUguali (int punteggio){
+//		// restituisce solo i voti uguali al criterio
+//		// difetto: espone all'esterno il tipo di struttura dati
+//		// che ho usato internamente
+//		
+//		ArrayList<Voto> risultato = new ArrayList<Voto>();
+//		
+//		for(Voto v: this.voti) {
+//			if(v.getVoto()==punteggio) {
+//				risultato.add(v);
+//			}
+//		}
+//		
+//		return risultato;
+//	}
 	
 	public Libretto votiUguali (int punteggio) {
 		// resttuisco un oggetto Libretto con voti solo uguali a punteggio
